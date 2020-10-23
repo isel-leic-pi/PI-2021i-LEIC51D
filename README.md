@@ -1,2 +1,3 @@
-# PI-2021i-LEIC51D
-Repositório das aulas de PI da turma LI51D do 1º semestre de 2020-21
+# Repositório do código das aulas da turma LI51D de PI, 1º Semestre de 2020/2021
+
+Para mais informações sobre esta turma consultar o [wiki](../../wiki) deste repositório.
