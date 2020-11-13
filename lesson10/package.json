@@ -1,0 +1,22 @@
+{
+  "name": "lesson10",
+  "version": "1.0.0",
+  "description": "Node application from lesson 10",
+  "main": "http-client.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isel-leic-pi/PI-2021i-LEIC51D.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/isel-leic-pi/PI-2021i-LEIC51D/issues"
+  },
+  "homepage": "https://github.com/isel-leic-pi/PI-2021i-LEIC51D#readme",
+  "dependencies": {
+    "urllib": "2.36.1"
+  }
+}
