@@ -2,7 +2,7 @@ const PORT = 1904
 
 const express = require('express')
 
-const tasksDb = require('./tasks-db')
+const tasksDb = require('./tasks-db')()
 const tasksServices = require('./tasks-services')(tasksDb)
 const tasksApi = require('./tasks-web-api')(tasksServices)
 
