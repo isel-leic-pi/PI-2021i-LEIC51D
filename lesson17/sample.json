@@ -1,0 +1,9 @@
+{
+  "a": 12,
+  "b": [
+    {
+      "c": "SLB",
+      "d": "function (a, b) { return a+b }"
+    }
+  ]
+}
