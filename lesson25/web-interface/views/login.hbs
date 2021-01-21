@@ -1,0 +1,36 @@
+  <div class="row">
+    <aside class="col-sm-4">
+      <p>Login</p>
+      <div class="card">
+        <article class="card-body">
+          <a href="" class="float-right btn btn-outline-primary">Sign up</a>
+          <h4 class="card-title mb-4 mt-1">Sign in</h4>
+          {{#if warning}}
+          <div class="alert alert-warning alert-dismissible fade show" role="alert">
+            {{warning}}
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          </div>
+          {{/if}}
+
+          <form method="POST" action="/users/login">
+            <div class="form-group">
+              <label>Your email</label>
+              <input name="email" class="form-control" placeholder="Insert Email here" value="{{username}}" type="email">
+            </div> <!-- form-group// -->
+            <div class="form-group">
+              <a class="float-right" href="#">Forgot?</a>
+              <label>Your password</label>
+              <input name="password" class="form-control" placeholder="******" value={{password}} type="password">
+            </div> <!-- form-group// -->
+            <div class="form-group">
+              <div class="checkbox">
+                <label> <input type="checkbox"> Save password </label>
+              </div> <!-- checkbox .// -->
+            </div> <!-- form-group// -->
+            <div class="form-group">
+              <button type="submit" class="btn btn-primary btn-block"> Login </button>
+            </div> <!-- form-group// -->
+          </form>
+        </article>
+      </div> <!-- card.// -->
+  </div>
