@@ -1,0 +1,23 @@
+<div class="container">
+  <div class="row">
+    Username: {{username}} | 
+    <a href="/users/logout"> Logout</a>
+  </div>
+  <h1 class="row">{{title}}</h1>
+  <div class="row">
+  {{#each tasks}}
+    <div class="col-sm-3">
+      <div class="card" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title">{{name}}</h5>
+
+          <p class="card-text">{{description}}</p>
+          <a href="#" class="card-link"><a href="tasks/{{id}}">Card details</a>
+        </div>
+      </div>
+    </div>
+  {{/each}}
+  </div>
+  
+  <a href="tasks/new-task">Create a new task</a>
+</div>
